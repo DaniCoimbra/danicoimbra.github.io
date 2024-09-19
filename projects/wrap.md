@@ -4,7 +4,7 @@ type: project
 published: true
 image:  img/wrap-logo.png
 title: "Wrap - Simplifying Legal Documents"
-date: 2024-12-15
+date: 2024
 labels:
   - Web Software Development
   - NLP
