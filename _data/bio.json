@@ -4,10 +4,10 @@
     "label": "Computer Science Student",
     "picture": "img/pfp.png",
     "email": "dcsalomao2000@gmail.com",
-    "phone": "(385) 436-0791",
+    "phone": "",
     "website": "https://danicoimbra.github.io",
     "summary": "I am a Computer Science student at the University of Utah, specializing in software development, AI, and robotics. With hands-on experience from internships and research roles, I am passionate about creating innovative solutions in software engineering, algorithm design, and machine learning, and I look forward to graduating in December 2024.",
-    "location": { "address": "", "postalCode": "84111", "city": "Salt Lake City", "countryCode": "USA", "region": "Utah" },
+    "location": { "address": "", "postalCode": "", "city": "Salt Lake City", "countryCode": "USA", "region": "Utah" },
     "profiles": [
       { "network": "github", "username": "DaniCoimbra", "url": "http://github.com/DaniCoimbra" },
       { "network": "linkedin", "username": "danielcoimbras", "url": "http://linkedin.com/in/danielcoimbras" }
