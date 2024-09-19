@@ -1,16 +1,19 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
-published: true
+published: false
+image:  img/wrap-logo.png
+title: "Wrap - Simplifying Legal Documents"
+date: 2024-12-15
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+  - Web Software Development
+  - NLP
+  - Full-Stack
+  - JavaScript
+  - Node.js
+  - NoSQL
+  - AWS
+summary: Wrap is an innovative tool designed to simplify and enhance the understanding and organization of legal documents for internet users by providing a user-friendly interface that seamlessly integrates into browsing. It offers features such as summarization, section labeling, risk assessment, a jargon dictionary, and a document library to encourage users to evaluate online risks effectively. This solution aims to transform how users interact with online legal documents, ensuring informed consent and legal safety with ease.
 ---
 
 <img class="img-fluid" src="../img/vacay/vacay-home-page.png">
