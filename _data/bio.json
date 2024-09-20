@@ -20,7 +20,26 @@
     { "name": "Robotics Automation" },
     { "name": "AI Models" }
   ],
-
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python", "C++", "Java", "JavaScript", "Kotlin", "Shell Scripting"
+      ]
+    },
+    {
+      "name": "Frameworks & Tools",
+      "keywords": [
+        "React", "Node.js", "Flask", "PyTorch", "Pandas", "Selenium", "Pytest"
+      ]
+    },
+    {
+      "name": "Databases & Platforms",
+      "keywords": [
+        "MySQL", "SQL/NoSQL", "Docker", "AWS (EC2)", "Git/GitHub", "Linux/Ubuntu", "Windows"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "University of Utah, Salt Lake City, UT",
@@ -37,182 +56,130 @@
 
   "work": [
     {
-      "company": "University of Hawaii",
-      "position": "Professor",
-      "website": "http://www.ics.hawaii.edu",
-      "startDate": "1990-08-01",
+      "company": "Kahlert School of Computing",
+      "position": "Undergraduate Researcher",
+      "startDate": "2024-05-01",
       "endDate": "Present",
-      "summary": "Department of Information and Computer Sciences",
+      "summary": "Developed DP and ILP algorithms for robotic inspection, improving path weight and coverage.",
       "highlights": [
-        "Professor, 2001-present",
-        "Associate Chair, 2010-2016",
-        "Director, Collaborative Software Development Laboratory, 1990-present",
-        "Associate Professor, 1995-2001",
-        "Assistant Professor, 1990-1995"
+        "Developed algorithms that significantly reduced path weight and enhanced inspection coverage.",
+        "Contributed to a successful WAFR conference submission.",
+        "Optimized data gathering, cleanup, and analysis for inspection planning."
       ]
     },
     {
-      "company": "Geo Garden Club",
-      "position": "Co-Founder",
-      "website": "https://geogardenclub.com",
-      "startDate": "2021-01-01",
-      "endDate": "Present",
-      "summary": "Co-founder and Chief Flutter Wrangler",
-      "highlights": []
+      "company": "Hexagon MI",
+      "position": "Software Developer Intern",
+      "startDate": "2024-05-01",
+      "endDate": "2024-08-21",
+      "summary": "Created algorithms for path planning and collision detection, boosting motion generation and speed.",
+      "highlights": [
+        "Engineered solutions for path planning, spatial analysis, and collision detection.",
+        "Collaborated on 3D model creation, CAD modifications, and coding with Python, JavaScript, and C#.",
+        "Integrated GPU parallel computation into robotic solvers."
+      ]
     },
     {
-      "company": "Open Power Quality",
-      "position": "CEO",
-      "website": "https://openpowerquality.com",
-      "startDate": "2013-01-01",
-      "endDate": "2019-06-01",
-      "summary": "Co-founder and leader of technical development",
-      "highlights": []
+      "company": "Kahlert School of Computing",
+      "position": "Research Assistant",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01",
+      "summary": "Supported research on robotic inspection algorithms and data optimization.",
+      "highlights": [
+        "Worked on DP and ILP algorithms for inspection.",
+        "Conducted data analysis to enhance inspection planning research."
+      ]
     },
     {
-      "company": "Blekinge Institute of Technology",
-      "position": "Visiting Professor",
-      "website": "https://www.bth.se/eng",
-      "startDate": "2006-08-01",
-      "summary": "School of Engineering",
-      "highlights": []
+      "company": "UIT",
+      "position": "Software QA Intern",
+      "startDate": "2023-07-01",
+      "endDate": "2024-01-01",
+      "summary": "Implemented automated test plans and API testing to improve release processes.",
+      "highlights": [
+        "Developed over 8 automated test plans for University of Utah applications using Java, SQL, and JavaScript.",
+        "Designed API testing for WSO2 and load-tested university services."
+      ]
     },
     {
-      "company": "University of Queensland",
-      "position": "Senior Research Fellow",
-      "startDate": "1997-05-01",
-      "summary": "Distributed Systems Technology Centre",
-      "highlights": []
+      "company": "David Eccles School of Business",
+      "position": "Research Assistant",
+      "startDate": "2023-01-01",
+      "endDate": "2023-05-01",
+      "summary": "Worked on Flex-E-Markets trading platform and researched stock market operations.",
+      "highlights": [
+        "Contributed to Flex-E-Markets platform using Java and Python.",
+        "Researched market operations, coded 10+ applications, and integrated AI traders."
+      ]
+    },
+    {
+      "company": "David Eccles School of Business",
+      "position": "Teaching Assistant - Fintech",
+      "startDate": "2022-08-01",
+      "endDate": "2023-01-01",
+      "summary": "Assisted in Fintech Labs, focusing on market theory and coding in Fintech.",
+      "highlights": [
+        "TA for Fintech Labs: Focused on market theory in E-Markets.",
+        "Analyzed trading data and taught coding in Fintech.",
+        "Revamped Fintech courses with computer science concepts."
+      ]
+    },
+    {
+      "company": "Maua Junior",
+      "position": "Engineering Consultant",
+      "startDate": "2019-02-01",
+      "endDate": "2019-12-01",
+      "summary": "Led the design and implementation of an employee time-tracking system.",
+      "highlights": [
+        "Managed all stages from research to execution of a time-tracking system.",
+        "Developed leadership, teamwork, and entrepreneurship skills."
+      ]
     }
   ],
 
   "volunteer": [
     {
-      "position": "Editorial Boards",
-      "summary": "",
-      "highlights": [
-        "Journal of Empirical Software Engineering, 2004-2008",
-        "IEEE Transactions on Software Engineering, 2000-2004",
-        "International Journal of Computer Supported Cooperative Work, 1997-2004"
-      ]
-    },
-    {
-      "position": "Industrial Boards",
-      "summary": "",
-      "highlights": [
-        "Member, Technical Advisory Board, Sixth Sense Analytics, 2006-2009",
-        "Member, Board of Directors, Hawaii Strategic Development Corporation, 2006-2009",
-        "Member, Board of Directors, LavaNet, Inc., 2002-2005",
-        "Member, Board of Directors, High Technology Development Corporation, 2000-2004"
-      ]
-    },
-    {
-      "position": "Program Chair/Co-Chair",
-      "summary": "",
-      "highlights": [
-        "International Workshop on In-Process Software Engineering Measurement and Analysis, 2007",
-        "International Workshop on Software Engineering for High Performance Computing System Applications, 2004, 2005",
-        "International Software Engineering Research Network Annual Meeting, 2000",
-        "Software Architectures for Cooperative Systems Workshop, ACM Conference on Computer Supported Cooperative Work, 1994",
-        "CSCW Tools and Technologies Workshop, European Conference on Computer Supported Cooperative Work, 1993",
-        "CSCW Tools and Technologies Workshop, ACM Conference on Computer Supported Cooperative Work, 1992"
-      ]
-    },
-    {
-      "organization": "International Software Engineering Research Network (ISERN)",
+      "organization": "Theory in Practice",
       "position": "Member",
-      "website": "http://isern.iese.de",
-      "startDate": "1996-05-01",
-      "endDate": "2010-06-01",
-      "summary": "",
+      "website": "https://sullivan.cs.utah.edu/#!/",
+      "startDate": "2024",
+      "endDate": "present",
+      "summary": "Theory in Practice Lab combines graph theory, algorithms, and statistical tools to solve real world problems.",
       "highlights": [
-        "Software metrics and software engineering behavioral research."
+        "Active member working on Inspection Planning and Treatment Planning."
       ]
-    }
-  ],
-
-  "awards": [
-    {
-      "type": "grant",
-      "title": "Data in Engineering and Society: Converging Applications, Research, and Training Enhancements for Students",
-      "date": "2023-2028",
-      "awarder": "National Science Foundation",
-      "summary": "N. Santhanam, Principal Investigator; N. Tarui, P. Johnson, J. Zhang, Co-Principal Investigators. $3,000,000"
     },
     {
-      "type": "grant",
-      "title": "Change Hawaii: Harnessing the Data Revolution for Island Resilience",
-      "date": "2022-2027",
-      "awarder": "National Science Foundation",
-      "summary": "G. Jacobs, Principal Investigator; T. Giambelluca, P. Johnson, J. Leigh, and H. Turner, Co-Principal Investigators. $20,000,000"
-    },
-    {
-      "type": "award",
-      "title": "Board of Regents Medal for Excellence in Teaching",
-      "date": "2019",
-      "awarder": "University of Hawaii",
-      "summary": ""
-    },
-    {
-      "type": "grant",
-      "title": "Using Degree Experience Plans to Improve Engagement, Retention, and Diversity of Undergraduates in Computer Science",
-      "date": "2018-2022",
-      "awarder": "National Science Foundation",
-      "summary": "P. Johnson, Principal Investigator; Peter Leong, Seungoh Paek, Carleton Moore, Co-Principal Investigators $331,208."
-    },
-    {
-      "type": "grant",
-      "title": "Human centered information integration for the smart grid",
-      "date": "2010-2014",
-      "awarder": "National Science Foundation",
-      "summary": "P. Johnson, Principal Investigator. $413,467."
+      "organization": "ULEEF - University of Utah Laboratory for Experimental Economics & Finance",
+      "position": "Member",
+      "website": "https://uleef.business.utah.edu/newsite/index.html",
+      "startDate": "2022",
+      "endDate": "present",
+      "summary": "ULEEF studies risk decisions from brain to markets using controlled experiments, integrating insights from neurobiology, economics, psychology, and computer science to provide an evidence-based foundation for finance and regulation.",
+      "highlights": [
+        "Developing algorithmic trading for research and academic work.",
+        "Study of robots and risk in behavior trading and economics."
+      ]
     }
   ],
 
   "publications": [
     {
-      "name": "Building a Cybertraining program for Climate Scientist in the Pacific to integrate Cyberinfrastructure and Open Science",
-      "type": "conference",
-      "author": "Sean B. Cleveland, Shivani Tanaka, Maria Dumanlang, Alexander Stokes, Jason Leigh, Thomas W. Giambelluca, Philip M. Johnson, Helen Turner, Gwen A. Jacobs",
-      "publisher": "Proceedings of the 2024 Practice and Experiences in Advanced Research Computing (PEARC '24)",
-      "releaseDate": "July, 2024",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2024/24-01/24-01.pdf",
+      "name": "Leveraging Fixed-Parameter Tractability for Robot Inspection Planning",
+      "type": "preprint",
+      "author": "Yosuke Mizutani, Daniel Coimbra Salomao, Alex Crane, Matthias Bentert, Pål Grønås Drange, Felix Reidl, Alan Kuntz, Blair D. Sullivan",
+      "publisher": "arXiv",
+      "releaseDate": "2024",
+      "website": "https://arxiv.org/abs/2407.00251",
       "summary": ""
     },
     {
-      "name": "Beyond course work: expanding what's valued in computer science degree programs",
-      "type": "journal",
-      "author": "Seungoh Paek, Peter Leong, Philip M. Johnson, and Carleton A. Moore",
-      "publisher": "Journal of Applied Research in Higher Education",
-      "releaseDate": "September, 2020",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-08/20-08.pdf",
-      "summary": ""
-    },
-    {
-      "name": "Design, Implementation, and Evaluation of Open Power Quality",
-      "type": "journal",
-      "author": "Anthony J. Christe, Sergey Negrashov, and Philip M. Johnson",
-      "publisher": "Energies 13(15)",
-      "releaseDate": "August, 2020",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-07/20-07.pdf",
-      "summary": ""
-    },
-    {
-      "name": "RadGrad: Removing the 'Extra' from Extracurricular to Improve Student Engagement, Retention, and Diversity",
-      "type": "conference",
-      "author": "Philip M. Johnson, Carleton A. Moore, Peter Leong, Seungoh Paek",
-      "publisher": "Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE 2020)",
-      "releaseDate": "March, 2020",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-04/19-04.pdf",
-      "summary": ""
-    },
-    {
-      "name": "Design and evaluation of an athletic approach to software engineering education",
-      "type": "journal",
-      "author": "Philip M. Johnson",
-      "publisher": "ACM Transactions on Computing Education",
-      "releaseDate": "August, 2019",
-      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-03/19-03.pdf",
+      "name": "Graph Inspection for Robotic Motion Planning: Do Arithmetic Circuits Help?",
+      "type": "preprint",
+      "author": "Matthias Bentert, Daniel Coimbra Salomao, Alex Crane, Yosuke Mizutani, Felix Reidl, Blair D. Sullivan",
+      "publisher": "arXiv",
+      "releaseDate": "2024",
+      "website": "https://arxiv.org/abs/2409.08219",
       "summary": ""
     }
   ]

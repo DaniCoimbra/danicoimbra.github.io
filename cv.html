@@ -77,7 +77,7 @@ layout: home
         </p>
       </div>
     </div> -->
-
+<!-- 
     {% if site.data.bio.skills %}
     <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
@@ -94,9 +94,10 @@ layout: home
         {% endfor %}
       </div>
     </div>
-    {% endif %}
+    {% endif %} -->
 
     {% if site.data.bio.education %}
+    <hr />
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Education</h1>
@@ -139,7 +140,29 @@ layout: home
     </div>
     {% endif %}
 
+    {% if site.data.bio.skills %}
+    <hr />
+    <div class="row pt-4 align-items-start">
+      <div class="col-lg-3">
+        <h1 class="display-6 text-start m-0">Skills</h1>
+      </div>
+      <div class="col-lg-9">
+        {% for entry in site.data.bio.skills %}
+        <div class="row mb-3">
+          <p class="m-0">
+            <b>{{ entry.name }}:</b>
+              {% for keyword in entry.keywords %}
+                {{ keyword }}{% if forloop.last != true %}, {% endif %}
+              {% endfor %}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
     {% if site.data.bio.work %}
+    <hr />
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Experience</h1>
@@ -148,13 +171,13 @@ layout: home
         {% for entry in site.data.bio.work %}
           <div class="row mb-3">
             <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
+              <p class="mb-0" style="font-size: large;"><b>{{ entry.position }}, {{ entry.company }}</b></p>
               <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              <p class="mb-0">{{ entry.summary }}</p>
+              <p class="mb-0" style="margin-top: 7px; font-size: 0.9rem">{{ entry.summary }}</p>
               {% if entry.highlights %}
-                <ul>
+                <ul style="margin-top: 7px;">
                   {% for highlight in entry.highlights %}
-                    <li>{{ highlight }}</li>
+                    <li style="font-size: 0.9rem">{{ highlight }}</li>
                   {% endfor %}
                 </ul>
               {% endif %}
@@ -183,6 +206,7 @@ layout: home
     {% endif %}
 
     {% if site.data.bio.volunteer %}
+    <hr />
       <div class="row pt-4 align-items-start">
         <div class="col-lg-3">
           <h1 class="display-6 text-start m-0">Activities</h1>
@@ -191,13 +215,14 @@ layout: home
           {% for entry in site.data.bio.volunteer %}
           <div class="row mb-3">
             <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              <p class="mb-0">{{ entry.summary }}</p>
+              <p class="mb-0" style="margin-top: 10px;"><b>{% if entry.organization %}{{ entry.organization }}{% endif %}</b></p>
+              <p class="mb-0">{{ entry.position }}</p>
+              <!-- <p class="mb-0"><a href="{{ entry.website }}">Website</a></p> -->
+              <p class="mb-0" style="font-size: 0.9rem">{{ entry.summary }}</p>
               {% if entry.highlights %}
                 <ul>
                 {% for highlight in entry.highlights %}
-                  <li>{{ highlight }}</li>
+                  <li style="font-size: 0.9rem">{{ highlight }}</li>
                 {% endfor %}
               </ul>
               {% endif %}
@@ -212,7 +237,7 @@ layout: home
                 {% endif %}
                 {% if entry.endDate %}
                   {% if entry.endDate != "Present" %}
-                    {{ entry.endDate | slice: 0,4 }}
+                    {{ entry.endDate }}
                   {% else %}
                     {{ entry.endDate }}
                   {% endif %}
@@ -226,6 +251,7 @@ layout: home
     {% endif %}
 
     {% if site.data.bio.publications %}
+    <hr />
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Publications</h1>
@@ -304,7 +330,7 @@ layout: home
     </div>
     {% endif %}
 
-    <!-- <hr> -->
-    <!-- <p class="text-center">Complete CV is <a href="https://github.com/philipmjohnson/cv/raw/master/philipmjohnson-cv.pdf">here</a></p> -->
+    <hr>
+    <p class="text-center"><a href="_data/Resume_DCS.pdf">Resume</a></p>
   </div>
 </div>

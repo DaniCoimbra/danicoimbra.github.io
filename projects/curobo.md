@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image:  img/curobo.png
+image:  img/curobo2.png
 title: "Robotic Motion Generation"
 date: 2024
 labels:
