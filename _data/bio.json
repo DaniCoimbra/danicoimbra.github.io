@@ -6,7 +6,7 @@
     "email": "dcsalomao2000@gmail.com",
     "phone": "",
     "website": "https://danicoimbra.github.io",
-    "summary": "I am a Computer Science student at the University of Utah, specializing in software development, AI, and robotics. With hands-on experience from internships and research roles, I am passionate about creating innovative solutions in software engineering, algorithm design, and machine learning, and I look forward to graduating in December 2024.",
+    "summary": "I am a <strong>Computer Science</strong> student at the <strong>University of Utah</strong>, specializing in software development, AI, and robotics. With hands-on experience from internships and research roles, I am passionate about creating innovative solutions in software engineering, algorithm design, and machine learning. I am an active member of <a href='https://uleef.business.utah.edu/newsite/index.html'>ULEEF</a> and the <a href='https://sullivan.cs.utah.edu/#!/people'>Thoery in Practice</a> research group, and I look forward to graduating in December 2024.",
     "location": { "address": "", "postalCode": "", "city": "Salt Lake City", "countryCode": "USA", "region": "Utah" },
     "profiles": [
       { "network": "github", "username": "DaniCoimbra", "url": "http://github.com/DaniCoimbra" },
@@ -15,36 +15,23 @@
   },
   "interests": [
     { "name": "Fintech" },
-    { "name": "Competitive programming" },
+    { "name": "Competitive Programming" },
     { "name": "Trading Algorithms" },
     { "name": "Robotics Automation" },
-    { "name": "AI models" }
+    { "name": "AI Models" }
   ],
 
   "education": [
     {
-      "institution": "University of Massachusetts, Amherst, MA",
+      "institution": "University of Utah, Salt Lake City, UT",
       "area": "Computer Science",
-      "studyType": "Ph.D.",
-      "endDate": "1990-08-01",
-      "gpa": "",
-      "courses": []
-    },
-    {
-      "institution": "University of Massachusetts, Amherst, MA",
-      "area": "Computer Science",
-      "studyType": "M.S.",
-      "endDate": "1985-06-01",
-      "gpa": "",
-      "courses": []
-    },
-    {
-      "institution": "University of Michigan, Ann Arbor, MI",
-      "area": "Biology, Computer Science",
       "studyType": "B.S.",
-      "endDate": "1980-05-01",
-      "gpa": "",
-      "courses": []
+      "startDate": "2021-08-01",
+      "endDate": "2024-12-01",
+      "gpa": "3.75",
+      "courses": ["Relevant Courses: ", "Software Development I & II,", "Mobile App Programming,", "Computer Security,", 
+      "Foundations of Data Analysis,", "Artificial Intelligence,", 
+      "Machine Learning,", "Deep Learning,", "Computer Vision"]
     }
   ],
 
