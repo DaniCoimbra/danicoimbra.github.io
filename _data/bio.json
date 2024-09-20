@@ -182,5 +182,31 @@
       "website": "https://arxiv.org/abs/2409.08219",
       "summary": ""
     }
+  ],
+  "awards": [
+    {
+      "title": "UROP Scholar",
+      "awarder": "University of Utah",
+      "date": "Summer 2024, Fall 2024",
+      "summary": "Received the Undergraduate Research Opportunities Program (UROP) award for research contributions as part of the Kahlert School of Computing."
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "skill": "Fluent"
+    },
+    {
+      "name": "Portuguese",
+      "skill": "Native"
+    },
+    {
+      "name": "Spanish",
+      "skill": "Advanced"
+    },
+    {
+      "name": "Japanese",
+      "skill": "Intermediate"
+    }
   ]
 }

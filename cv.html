@@ -283,6 +283,7 @@ layout: home
 
 
     {% if site.data.bio.awards %}
+    <hr />
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Awards</h1>
@@ -298,7 +299,7 @@ layout: home
             <p class="mb-0">
               {{ entry.awarder }}
             </p>
-            <p class="mb-0">{{ entry.summary }}</p>
+            <p class="mb-0" style="font-size: 0.9rem;">{{ entry.summary }}</p>
           </div>
           <div class="col-3">
             <p class="m-0 text-end">
@@ -329,6 +330,23 @@ layout: home
       </div>
     </div>
     {% endif %}
+    
+    {% if site.data.bio.languages %}
+    <hr />
+    <div class="row pt-4 align-items-start">
+      <div class="col-lg-3" style="margin-bottom: 1em;">
+        <h1 class="display-6 text-start m-0">Languages</h1>
+      </div>
+    
+      <div class="col-lg-9">
+        <p class="mb-0" style="font-size: 0.9rem; word-spacing: 0.25em; margin-top: 1em;">
+          {% for entry in site.data.bio.languages %}
+            {{ entry.name }} ({{ entry.skill }}){% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+    {% endif %}    
 
     <hr>
     <p class="text-center"><a href="_data/Resume_DCS.pdf">Resume</a></p>
